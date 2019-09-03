@@ -6,3 +6,4 @@ This is a temporary script file.
 """
 msxd=input('请猜一个数:')
 print('你猜的数是：'+ str(msxd))
+print('你猜的数是:',msxd)
