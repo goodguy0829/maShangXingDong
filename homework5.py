@@ -38,4 +38,7 @@ while goon:
     print("是否继续游戏？（输入'y'继续，其他退出）")
     goon=bool('y'==input())
 print('退出游戏，欢迎下次再来')  
-
+recordfile='%s %d %d %d' %(playerName,totalTime,minTime,gameTime)
+f=open('recordfile.txt','w')
+f.write(recordfile)
+f.close()
